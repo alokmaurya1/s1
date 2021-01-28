@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "s1"
+  description: "s1"
+  annotations:
+    github.com/project-slug: alokmaurya1/s1
+    backstage.io/techdocs-ref: url:https://github.com/alokmaurya1/s1
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "alokmaurya1"
